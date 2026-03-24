@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(npx cap:*)",
+      "Read(//c/Users/adiit/AppData/Local/Android/Sdk/**)",
+      "Bash(/dev/null ls:*)",
+      "Bash(/dev/null find:*)",
+      "Read(//c/Users/adiit/**)",
+      "Bash(JAVA_HOME=\"C:/Program Files/Android/Android Studio/jbr\" PATH=\"$JAVA_HOME/bin:$PATH\" cd d:/buget/android)",
+      "Bash(./gradlew assembleDebug)",
+      "Bash(JAVA_HOME=\"C:\\\\Program Files\\\\Android\\\\Android Studio\\\\jbr\" cmd.exe /c \"set JAVA_HOME=C:\\\\Program Files\\\\Android\\\\Android Studio\\\\jbr && gradlew.bat assembleDebug\")",
+      "Bash(cmd.exe /c \"set JAVA_HOME=C:\\\\Program Files\\\\Android\\\\Android Studio\\\\jbr && gradlew.bat assembleDebug 2>&1\")",
+      "Read(//d/AndroidSDK/**)",
+      "Read(//d/AndroidSDK/build-tools/**)",
+      "Read(//d/AndroidSDK/platforms/**)",
+      "Bash(\"d:/buget/android/local.properties\":*)",
+      "Bash(powershell.exe -Command \":*)",
+      "Bash(printf 'sdk.dir=D\\\\:\\\\\\\\\\\\\\\\AndroidSDK\\\\n')",
+      "Bash(python3 -c \":*)",
+      "Bash(powershell.exe -Command \"Set-Content -Path ''D:\\\\buget\\\\android\\\\local.properties'' -Value ''sdk.dir=D\\\\:\\\\AndroidSDK''\")",
+      "Bash(powershell.exe -Command \"Get-Content ''D:\\\\buget\\\\android\\\\local.properties''\")",
+      "Bash(powershell.exe -Command \"\\(Get-Item ''D:\\\\buget\\\\android\\\\app\\\\build\\\\outputs\\\\apk\\\\debug\\\\app-debug.apk''\\).Length / 1MB\")",
+      "Bash(npm list:*)",
+      "Bash(npx @capacitor/assets generate --iconBackgroundColor '#08091a' --iconBackgroundColorDark '#08091a' --splashBackgroundColor '#08091a' --splashBackgroundColorDark '#08091a')",
+      "Bash(JAVA_HOME=\"C:/Program Files/Android/Android Studio/jbr\" ANDROID_HOME=\"D:/AndroidSDK\" ./gradlew.bat assembleDebug)"
+    ]
+  }
+}

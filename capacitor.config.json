@@ -1,0 +1,18 @@
+{
+  "appId": "ro.personal.buget",
+  "appName": "Buget Personal",
+  "webDir": "dist",
+  "android": {
+    "backgroundColor": "#08091a"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#08091a",
+      "overlaysWebView": false
+    }
+  }
+}
